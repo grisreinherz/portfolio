@@ -1,0 +1,23 @@
+p {width: 88vw;}
+
+ul {
+	width: 444px;
+  padding: 20px;
+  display: flex;
+  gap: 4vw;
+}
+
+li {
+  list-style-type: none;
+  padding: 20px;
+  flex: 0 0 100%;
+}
+
+ul {
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+li {
+  scroll-snap-align: center;
+}
