@@ -1,10 +1,11 @@
 p {width: 88vw;}
 
 ul {
-	width: 444px;
-  padding: 20px;
-  display: flex;
-  gap: 4vw;
+	width: 300px;
+	padding: 20px;
+	display: flex;
+	gap: 4vw;
+	scroll-snap-type: x mandatory;
 }
 
 li {
@@ -14,10 +15,11 @@ li {
 }
 
 ul {
-  overflow-x: scroll;
+	 overflow-x: scroll;
   scroll-snap-type: x mandatory;
 }
 
 li {
   scroll-snap-align: center;
 }
+
